@@ -36,6 +36,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bU9-89-XNm">
                                                     <rect key="frame" x="15" y="11" width="104" height="158"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.95977584000000005" green="0.80034578639999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="tintColor" red="0.33628447929999999" green="0.54950969660000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sicario: Day of the Soldado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utX-OS-Al1">
                                                     <rect key="frame" x="127" y="11" width="233" height="21"/>
@@ -56,6 +58,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="overviewLabel" destination="ZHx-i2-bVd" id="vvd-6Q-tSV"/>
+                                            <outlet property="posterImageView" destination="bU9-89-XNm" id="j3j-in-bX0"/>
                                             <outlet property="titleLabel" destination="utX-OS-Al1" id="OAz-Cm-4hM"/>
                                         </connections>
                                     </tableViewCell>
