@@ -150,7 +150,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/k4L8oTA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/k4L8oTA.gif' title='Flix Part 3' width='664' alt='Flix Demo' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
