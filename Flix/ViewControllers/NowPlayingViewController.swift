@@ -63,8 +63,8 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
             }
         }
         task.resume()*/
-        
-        MovieApiManager().nowPlayingMovies
+        MovieApiManager().popularMovies
+        //MovieApiManager().nowPlayingMovies
             { (movies: [Movie]?, error: Error?) in
                 if let movies = movies
                 {
