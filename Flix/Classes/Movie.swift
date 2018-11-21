@@ -19,7 +19,7 @@ class Movie
     
     init(dictionary: [String: Any])
     {
-        let baseURLString = "https://image.tmdb.org/t/p/original"
+        let baseURLString = "https://image.tmdb.org/t/p/w500"
         
         title = dictionary["title"] as? String ?? "No title"
         
@@ -31,5 +31,17 @@ class Movie
         backdropURL = URL(string: baseURLString + backdropPath!)
         let posterPath = dictionary["poster_path"] as? String
         posterURL = URL(string: baseURLString + posterPath!)
+    }
+    
+    class func movies(dictionaries: [[String: Any]]) -> [Movie]
+    {
+        var movies: [Movie] = []
+        for dictionary in dictionaries
+        {
+            let movie = Movie(dictionary: dictionary)
+            movies.append(movie)
+        }
+        
+        return movies
     }
 }
